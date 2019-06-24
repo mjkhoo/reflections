@@ -1,28 +1,30 @@
-What happens when you initialize a repository? Why do you need to do it?
+Q: What happens when you initialize a repository? Why do you need to do it?
 
 A:  A git repository is created. You need to initialize, as this is not created automatically when you create the directory. 
 
-How is the staging area different from the working directory and the repository?
+Q: How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 A:  The staging area provides a useful place for you to organize your thoughts about the logical units of a project, before you actually make a commit to that project.
 
-How can you use the staging area to make sure you have one commit per logical
+Q: How can you use the staging area to make sure you have one commit per logical
 change?
 
-A:  You can review the changes you make in the changing area ... I am assuming that using the changing area to think about projects helps you to better understand the process you are making, until you reach a logical stopping point for that task.
+A:  You can review the changes you make in the changing area ... I am assuming that using the changing area to think about projects helps you to understand better the stage of the project you are working on, until you reach a logical stopping point for that stage.
 
-What are some situations when branches would be helpful in keeping your history
+Q: What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
 A:  Branches can be useful when you want to explore adding a new feature to a piece of code. This could be experimental. This is in contrast to other coding activities, such as debugging, and improvement/development of existing features, which maybe make smaller increments.
 
-    When you use branches, you can experiment with different ideas, while leaving the main code to run without anything being broken. It's kind of a sand box of to one side.
+When you use branches, you can experiment with different ideas, while leaving the main code to run without anything being broken. It's kind of a sand box of to one side.
 
-How do the diagrams help you visualize the branch structure?
+Q: How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
+The diagrams help you to visualize branch structure by showing the parent-child relationships between successive commits, and how parent-child relationships are formed in separate branches.
+
+Q: What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
