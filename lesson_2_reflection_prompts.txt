@@ -10,6 +10,8 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can review the changes you make in the changing area ... I am assuming that using the changing area to think about projects helps you to better understand the process you are making, until you reach a logical stopping point for that task.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
