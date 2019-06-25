@@ -32,3 +32,5 @@ The representation also shows us that work on different parts of the code can ta
 
 Q: What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+The coding part of this is getting a little beyond me. However I can see (I think) that an automatic merge takes a lot of the work out of comparing two branches. At the same time, however, there can be complex situations where the differences created on two branches by two developers can be complex, and should be sorted out f2f.
