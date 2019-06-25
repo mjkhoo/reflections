@@ -26,5 +26,9 @@ The diagrams help you to visualize branch structure by showing the parent-child 
 Q: What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result of merging two branches together is that the code on each of the branches is integrated - in theory, without conflict. It's represented in the diagram in this way, because this helps us to see how the code develops over time, and how different components of the code integrate.
+
+The representation also shows us that work on different parts of the code can take place in isolation from each other, but can then be merged later on.
+
 Q: What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
