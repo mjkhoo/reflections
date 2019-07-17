@@ -11,18 +11,21 @@ A: You would want to pull changes manually because this gives you more control o
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-A:
+A: A fork is where a Github repository is cloned on the Github server, and the clone is made in the account of a new person. Once the project is forked, then the forker can use the clone without affecting the original project. I would fork a project if I needed to experiment with someone else's project, without them necessarily being involved.
 
-A fork is where a Github repository is cloned on the Github server, and the clone is made in the account of a new person. Once the project is forked, then the forker can use the clone without affecting the original project. I would fork a project if I needed to experiment with someone else's project, without them necessarily being involved.
+A clone is a local copy of a project somewhere else. It could be cloned from Github, or from someone else's computer. I would clone a project if I was for example going to work on a project with someone, and would download from either my or their Github repository. 
 
-A clone is a local copy of a project somewhere else. It could be cloned from Github, or from someomne else's computer. I would clone a project if I was for example going to work on a projevct with someone, and would download from either my or their Github repository. 
-
-A branch is a separate part of the code for a particular project. I might use a branch when I wanted to add a new feature to an existing project, and I could work on it without it affecting the rest oif the code. 
+A branch is a separate part of the code for a particular project. I might use a branch when I wanted to add a new feature to an existing project, and I could work on it without it affecting the rest of the code. 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+You can get a current snapshot, and then work offline. 
+
+
+For example, you could look for conflicts and merge local and Github files.
+
+This saves you from having to be permanently online and, thinking about it, from having many micro-conflicts emerge as people work on a project. Again, it helps people to chunk a project into logical sub-units. 
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
