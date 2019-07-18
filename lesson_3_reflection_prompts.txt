@@ -30,7 +30,7 @@ This saves you from having to be permanently online and, thinking about it, from
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+Mainly, I think I would swap files over email. What would be easier would be not having to learn a lot of Git commands. What would be harder would be making sure that all changes stayed in synch, and that everyone was aware of them.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
