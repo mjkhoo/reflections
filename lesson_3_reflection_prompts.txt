@@ -1,14 +1,14 @@
-When would you want to use a remote repository rather than keeping all your work
+Q: When would you want to use a remote repository rather than keeping all your work
 local?
 
 A: This is useful for collaborating with other individuals remotely, - and also maybe when you have access to different computers?
 
-Why might you want to always pull changes manually rather than having Git
+Q: Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
 A: You would want to pull changes manually because this gives you more control over when you update your local directory - perhaps after you have finished a particular piece of work.
 
-Describe the differences between forks, clones, and branches.  When would you
+Q: Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
 A: A fork is where a Github repository is cloned on the Github server, and the clone is made in the account of a new person. Once the project is forked, then the forker can use the clone without affecting the original project. I would fork a project if I needed to experiment with someone else's project, without them necessarily being involved.
@@ -17,22 +17,25 @@ A clone is a local copy of a project somewhere else. It could be cloned from Git
 
 A branch is a separate part of the code for a particular project. I might use a branch when I wanted to add a new feature to an existing project, and I could work on it without it affecting the rest of the code. 
 
-What is the benefit of having a copy of the last known state of the remote
+Q: What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-You can get a current snapshot, and then work offline. 
-
+A: You can get a current snapshot, and then work offline. 
 
 For example, you could look for conflicts and merge local and Github files.
 
 This saves you from having to be permanently online and, thinking about it, from having many micro-conflicts emerge as people work on a project. Again, it helps people to chunk a project into logical sub-units. 
 
-How would you collaborate without using Git or GitHub?  What would be easier,
+Q: How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-Mainly, I think I would swap files over email. What would be easier would be not having to learn a lot of Git commands. What would be harder would be making sure that all changes stayed in synch, and that everyone was aware of them.
+A: Mainly, I think I would swap files over email. What would be easier would be not having to learn a lot of Git commands. What would be harder would be making sure that all changes stayed in synch, and that everyone was aware of them.
 
-When would you want to make changes in a separate branch rather than directly in
-master?  What benefits does each approach have?
+Q: When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+A: The final question. I think it depends on the degree of coordination between the project members, and also the routine/incremental nature of the changes. If you are working closely on something that everyone agrees on, on smaller changes, then maybe working in master is better. It's quicker and maybe easier to stay up to speed.
+
+If you have something that's more individual, and perhaps experimental - a separate 'logical chunk' again - then perhaps creating a separate branch would work better.
+
+It's hard to say without actually having some experience here.
+
